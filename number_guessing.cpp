@@ -13,7 +13,7 @@ int main() {
     
     secretNumber = rand() % 100 + 1;
 
-    cout << "🎮 Welcome to the Number Guessing Game!" << endl;
+    cout << "Hello, Welcome to the Number Guessing Game!" << endl;
     cout << "I have chosen a number between 1 and 100." << endl;
     cout << "Try to guess it!" << endl;
 
@@ -34,4 +34,5 @@ int main() {
     } while (guess != secretNumber);
 
     return 0;
+
 }
