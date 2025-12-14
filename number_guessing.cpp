@@ -6,13 +6,8 @@ using namespace std;
 
 int main() {
     int secretNumber, guess, attempts = 0;
-
-    
     srand(time(0));
-
-    
     secretNumber = rand() % 100 + 1;
-
     cout << "Hello, Welcome to the Number Guessing Game!" << endl;
     cout << "I have chosen a number between 1 and 100." << endl;
     cout << "Try to guess it!" << endl;
@@ -36,3 +31,4 @@ int main() {
     return 0;
 
 }
+
